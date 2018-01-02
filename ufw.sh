@@ -18,6 +18,8 @@ echo "Allow HTTP"
 	ufw allow http
 echo "Allow SSH"
 	ufw allow ssh
+echo "Enabling UFW"
+	ufw enable
 echo "Quick Configuration Finished"
 
 echo "###Note: Remember to change SSH port in shd_config. Type ufw --help for more options###" 
